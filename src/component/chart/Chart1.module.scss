@@ -1,0 +1,60 @@
+.wrapper {
+    max-width: 1050px;
+    height: 530px;
+    background: -moz-linear-gradient(-45deg, #de437d 0%, #5b44b9 100%);
+    background: -webkit-linear-gradient(-45deg, #de437d 0%, #5b44b9 100%);
+    background: linear-gradient(135deg, #de437d 0%, #5b44b9 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#de437d', endColorstr='#5b44b9', GradientType=1);
+    font-family: 'open sans', sans-serif;
+    font-size: 3rem;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    .title {
+        font-size: 2rem;
+        text-align: center;
+        color: #efefef;
+
+        p {
+            text-transform: uppercase;
+            display: block;
+            margin: 0;
+            padding-top: 15px;
+        }
+
+        .container-chugiai {
+            margin: 0 auto;
+            text-align: center;
+            width: 100%;
+            margin-top: 20px;
+            // padding-top: 10px;
+
+        }
+    }
+
+    .container {
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+
+        .graph-copy {
+            #GRAPHS {
+                polyline {
+                    stroke-dasharray: 1000;
+                    stroke-dashoffset: 1000;
+                    animation: dash 3s ease-in forwards;
+                    animation-iteration-count: 500;
+                    animation-direction: alternate;
+                }
+
+                @keyframes dash {
+                    to {
+                        stroke-dashoffset: 0;
+                    }
+                }
+            }
+        }
+    }
+
+
+}

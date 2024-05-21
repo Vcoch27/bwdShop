@@ -1,0 +1,130 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 350px;
+
+  .wsk-cp-product {
+    width: 350px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    position: relative;
+    margin: 20px auto;
+
+    .wsk-cp-img {
+      position: absolute;
+      top: 5px;
+      left: 50%;
+      transform: translate(-50%);
+      width: 95%;
+      padding-top: 5px;
+      transition: all 0.3s ease-in-out;
+
+      img {
+        width: 100%;
+        transition: all 0.2s ease-in-out;
+        border-radius: 6px;
+
+        // Fixed hover effect for image
+        &:hover {
+          box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3),
+            0 15px 12px rgba(0, 0, 0, 0.22);
+        }
+      }
+
+      &:hover {
+        top: -20px;
+      }
+    }
+
+    .wsk-cp-text {
+      padding-top: 125%;
+
+      .category {
+        font-weight: bold;
+        padding: 5px;
+        margin-bottom: 30px;
+        position: relative;
+        transition: all 0.3s ease-in-out;
+
+        * {
+          position: absolute;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+
+        span {
+          text-align: center;
+          padding: 12px 30px;
+          border-color: #ddd;
+          background: #212121;
+          color: #fff;
+          box-shadow: none;
+          border-radius: 27px;
+          transition: all 0.2s ease-in-out;
+          font-weight: 400;
+
+          // Fixed hover effect for span
+          &:hover {
+            border-color: #ddd;
+            box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3),
+              0 15px 12px rgba(0, 0, 0, 0.22);
+            padding: 11px 28px;
+            font-weight: 4500;
+          }
+        }
+      }
+
+      .title-product {
+        text-align: center;
+
+        h3 {
+          font-size: 20px;
+          margin: 15px auto;
+          /* ẩn bất kỳ nội dung nào mà vượt ra khỏi khu vực được định rõ kích thước */
+          overflow: hidden;
+
+          width: 100%;
+        }
+      }
+
+      .description-prod {
+        text-align: center;
+
+        overflow: hidden;
+
+        p {
+          margin: 0;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    .wsk-cp-product {
+      margin: 40px auto;
+
+      .wsk-cp-img {
+        top: -40px;
+
+        img {
+          box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3),
+            0 15px 12px rgba(0, 0, 0, 0.22);
+        }
+      }
+
+      .wsk-cp-text {
+        .category {
+          margin-top: 0px;
+
+          span {
+            border-color: #ddd;
+            box-shadow: none;
+            padding: 11px 28px;
+          }
+        }
+      }
+    }
+  }
+}

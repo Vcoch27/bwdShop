@@ -1,0 +1,235 @@
+.Contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: #e2e2e2;
+    height: 900px;
+    width: 100%;
+
+    .Information_contact {
+        width: 1300px;
+        height: 420px;
+        display: flex;
+        flex-direction: row;
+        border-radius: 3px;
+        background-color: #ffffff;
+        font-family: sans-serif;
+
+        .phone_email_address_social {
+            padding: 60px 0;
+            width: 65%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .New_york {
+                width: 70%;
+                height: 100px;
+                display: flex;
+                align-items: center;
+                font-size: 20px;
+            }
+
+            .information {
+                display: flex;
+                flex-direction: row;
+                width: 70%;
+
+                .phone_email {
+                    display: flex;
+                    flex-direction: column;
+                    width: 50%;
+
+
+                    .topic_phone,
+                    .topic_email {
+                        width: 100%;
+                        height: 30px;
+                        font-size: 12px;
+                        color: #8f8f8f;
+                    }
+
+                    .information_phone,
+                    .information_email {
+                        width: 100%;
+                        height: 80px;
+                        font-size: 17px;
+                        color: #717171;
+                    }
+                }
+
+                .address_social {
+                    display: flex;
+                    flex-direction: column;
+                    width: 50%;
+
+                    .topic_address,
+                    .topic_social {
+                        width: 100%;
+                        height: 30px;
+                        font-size: 12px;
+                        color: #8f8f8f;
+                    }
+
+                    .information_address {
+                        width: 180px;
+                        height: 80px;
+                        font-size: 17px;
+                        color: #717171;
+                    }
+
+                    .information_social {
+                        width: 100%;
+                        height: 50px;
+                        font-size: 15px;
+                        color: #717171;
+                        display: flex;
+                        flex-direction: row;
+                        gap: 10px;
+
+                        .icon {
+                            font-size: 20px;
+                            transition: all 0.3s ease;
+                            color: #000000d7;
+                        }
+
+
+                        .icon:hover {
+                            color: #363636;
+                            scale: 1.3;
+                        }
+
+                        .icon:active {
+                            color: #717171;
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .iframe_address {
+            width: 35%;
+            height: 100%;
+
+            iframe {
+                width: 100%;
+                height: 100%;
+                border: 0;
+            }
+        }
+    }
+
+    .Text_contact {
+        width: 1300px;
+        height: 420px;
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: row;
+        border-radius: 3px;
+        font-family: sans-serif;
+
+        .img {
+
+            width: 35%;
+            height: 100%;
+
+            img {
+                position: absolute;
+                width: 450px;
+                height: 420px;
+                object-fit: cover;
+                opacity: 0;
+                transition: opacity 7s ease-in-out;
+            }
+
+            img.active {
+                opacity: 1;
+            }
+        }
+
+        .Text {
+            width: 65%;
+            // height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .Send_your {
+                height: 100px;
+                display: flex;
+                align-items: center;
+                font-size: 24px;
+            }
+
+            .text {
+                width: 400px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                height: 234px;
+                gap: 6px;
+
+                input {
+                    width: 500px;
+                    height: 40px;
+                    background-color: #ececec;
+                    border: 0;
+                    border-radius: 4px;
+                    text-indent: 15px;
+                    outline: none;
+                    color: #4a4a4a;
+                }
+
+                textarea {
+                    width: 500px;
+                    height: 110px;
+                    border: 0;
+                    border-radius: 4px;
+                    background-color: #ececec;
+                    text-indent: 15px;
+                    padding-top: 12px;
+                    outline: none;
+                    color: #4a4a4a;
+                }
+
+                input::-webkit-input-placeholder,
+                textarea::-webkit-input-placeholder {
+                    text-indent: 15px;
+                    color: #9f9f9f;
+                }
+
+                input:hover,
+                textarea:hover {
+                    box-shadow: 0 0 5px #b3b3b3;
+                }
+            }
+
+            .send {
+                width: 500px;
+                height: 40px;
+                border: 0;
+                border-radius: 4px;
+                background-color: #000000;
+                color: #cdcdcd;
+                font-size: 12px;
+                transition: all 0.3s ease;
+            }
+
+            .send:hover {
+                background-color: #5a5a5a;
+                color: #ffffff;
+                font-size: 13px;
+            }
+
+            .send:active {
+                background-color: #000000;
+                color: #cdcdcd;
+                font-size: 14px;
+            }
+        }
+    }
+}
