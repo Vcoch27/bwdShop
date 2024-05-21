@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/bwdShop/static/css/main.bb60c7f0.css",
+    "main.js": "/bwdShop/static/js/main.35b26df2.js",
+    "static/js/453.0b564e15.chunk.js": "/bwdShop/static/js/453.0b564e15.chunk.js",
+    "static/media/hinhnenfooter.png": "/bwdShop/static/media/hinhnenfooter.1d3b1031f7e63526641b.png",
+    "static/media/coc2.png": "/bwdShop/static/media/coc2.ba606a56e9fcf55d9cf7.png",
+    "static/media/img1.png": "/bwdShop/static/media/img1.52d026ed8bdd2918e917.png",
+    "static/media/landingpage.jpg": "/bwdShop/static/media/landingpage.6392cd215ac26f792ff3.jpg",
+    "static/media/z3325209525585_jpg": "/bwdShop/static/media/z3325209525585_488d4b7293521b2cae3cef0731562e2a.995891c2e0015e22651e.jpg",
+    "static/media/banDoVietNam1.png": "/bwdShop/static/media/banDoVietNam1.a74e062cefe7a7223661.png",
+    "static/media/logobwd.png": "/bwdShop/static/media/logobwd.c400426eaaa7712331a8.png",
+    "static/media/slider1.jpg": "/bwdShop/static/media/slider1.af3a1b065b2936169019.jpg",
+    "static/media/hinhanh_amtra.webp": "/bwdShop/static/media/hinhanh_amtra.10381041beb14f63563c.webp",
+    "static/media/hinhanh_cocaro.webp": "/bwdShop/static/media/hinhanh_cocaro.480a5d9399401675531d.webp",
+    "static/media/hinh1.jpg": "/bwdShop/static/media/hinh1.ebdde14b2b28d484247f.jpg",
+    "static/media/hinh3.jpg": "/bwdShop/static/media/hinh3.e87c19d7f7b0bd03230c.jpg",
+    "static/media/hinh4.jpg": "/bwdShop/static/media/hinh4.2ece194a82cb52e47f35.jpg",
+    "static/media/checked.png": "/bwdShop/static/media/checked.f83ed6f05811c4d3e32a.png",
+    "static/media/hinhanh_caidia.jpg": "/bwdShop/static/media/hinhanh_caidia.b0efff12686420f5b166.jpg",
+    "static/media/hinh2.jpg": "/bwdShop/static/media/hinh2.6480814d303f2ce57b8f.jpg",
+    "static/media/avata3.jpg": "/bwdShop/static/media/avata3.5846f8b78b8d0520a6e5.jpg",
+    "index.html": "/bwdShop/index.html",
+    "main.bb60c7f0.css.map": "/bwdShop/static/css/main.bb60c7f0.css.map",
+    "main.35b26df2.js.map": "/bwdShop/static/js/main.35b26df2.js.map",
+    "453.0b564e15.chunk.js.map": "/bwdShop/static/js/453.0b564e15.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb60c7f0.css",
+    "static/js/main.35b26df2.js"
+  ]
+}
