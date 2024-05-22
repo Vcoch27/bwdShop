@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bwdShop/static/css/main.bb60c7f0.css",
-    "main.js": "/bwdShop/static/js/main.35b26df2.js",
+    "main.css": "/bwdShop/static/css/main.1f53f7a7.css",
+    "main.js": "/bwdShop/static/js/main.acc15557.js",
     "static/js/453.0b564e15.chunk.js": "/bwdShop/static/js/453.0b564e15.chunk.js",
     "static/media/hinhnenfooter.png": "/bwdShop/static/media/hinhnenfooter.1d3b1031f7e63526641b.png",
     "static/media/coc2.png": "/bwdShop/static/media/coc2.ba606a56e9fcf55d9cf7.png",
@@ -21,12 +21,12 @@
     "static/media/hinh2.jpg": "/bwdShop/static/media/hinh2.6480814d303f2ce57b8f.jpg",
     "static/media/avata3.jpg": "/bwdShop/static/media/avata3.5846f8b78b8d0520a6e5.jpg",
     "index.html": "/bwdShop/index.html",
-    "main.bb60c7f0.css.map": "/bwdShop/static/css/main.bb60c7f0.css.map",
-    "main.35b26df2.js.map": "/bwdShop/static/js/main.35b26df2.js.map",
+    "main.1f53f7a7.css.map": "/bwdShop/static/css/main.1f53f7a7.css.map",
+    "main.acc15557.js.map": "/bwdShop/static/js/main.acc15557.js.map",
     "453.0b564e15.chunk.js.map": "/bwdShop/static/js/453.0b564e15.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb60c7f0.css",
-    "static/js/main.35b26df2.js"
+    "static/css/main.1f53f7a7.css",
+    "static/js/main.acc15557.js"
   ]
 }
