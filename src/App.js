@@ -9,6 +9,7 @@ import Products from "./page/Products/Products.js";
 import Shoppingcart from "./component/shoppingcart/Shoppingcart.js";
 import Admin from "./page/adminpage/Admin.js";
 import IntroducePage from "./page/IntroducePage.js";
+import Coupon from "./component/coupon/Coupon.js";
 function App() {
   return (
     <BrowserRouter>
@@ -21,7 +22,7 @@ function App() {
         <Route path="/detail" element={<ProductDetail />} />
         <Route path="/cart" element={<Shoppingcart />} />
         <Route path="/admin" element={<Admin />} />
-
+        <Route path="/pay" element={<Coupon />} />
         <Route path="/products" element={<Products />} />
       </Routes>
     </BrowserRouter>
